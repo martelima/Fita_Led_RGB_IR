@@ -41,7 +41,7 @@ void loop() {
         Serial.println("Azul");  
         break;
         } 
-        case 'a':{//ver depois
+        case '7':{//ver depois
         irsend.sendNEC(0x20F7609F, 32);
         Serial.println("Vermelho");  
         delay(100); 
